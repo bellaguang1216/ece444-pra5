@@ -51,12 +51,12 @@ The following boxplots show the latency distribution for each test case:
 
 | Test Case | Average Latency (ms) | Median Latency (ms) | Min (ms) | Max (ms) | Std Dev (ms) |
 |-----------|----------------------|---------------------|----------|----------|--------------|
-| Fake News 1 | [To be filled after running tests] | [To be filled] | [To be filled] | [To be filled] | [To be filled] |
-| Fake News 2 | [To be filled after running tests] | [To be filled] | [To be filled] | [To be filled] | [To be filled] |
-| Real News 1 | [To be filled after running tests] | [To be filled] | [To be filled] | [To be filled] | [To be filled] |
-| Real News 2 | [To be filled after running tests] | [To be filled] | [To be filled] | [To be filled] | [To be filled] |
+| Fake News 1 | 160.04 | 104.72 | 56.06 | 849.20 | 151.64 |
+| Fake News 2 | 74.45 | 67.69 | 56.20 | 141.35 | 17.37 |
+| Real News 1 | 83.41 | 71.15 | 57.65 | 258.18 | 28.47 |
+| Real News 2 | 77.39 | 68.50 | 54.13 | 274.78 | 31.93 |
 
-*Note: Run `python test_api.py` to generate these statistics. See TESTING_GUIDE.md for instructions.*
+*Note: Statistics based on 100 API calls per test case (400 total requests). See TESTING_GUIDE.md for instructions.*
 
 ## Running Tests Locally
 
@@ -85,6 +85,3 @@ This will generate:
 
 The application is deployed on AWS Elastic Beanstalk using Gunicorn as the WSGI server.
 
-## License
-
-[License information]
